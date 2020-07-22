@@ -5,5 +5,6 @@ exports.getAll = async (req, res, next) => {
   return res.status(200).json({
     users,
     msg: "Todo bien crack!",
+    msg2: "Ahora si todo bien!",
   });
 };
